@@ -1,6 +1,9 @@
 # nodejs-with-TS-installation
       npm install
       tsc --init
+      npm install request lodash --save
+      npm install @types/lodash @types/request --save-dev
+      npm start
 // create src folder for your typescript codes ,
 // create file in sec folder. like index.ts or anything___.ts
 // now make another folder give name it output.
@@ -20,4 +23,4 @@
       npm install @types/lodash @types/request --save-dev
 // its gonna fetch those two library in devdependencies in package.json
 // now for compile and run your file,
-      npm start.
+      npm start
